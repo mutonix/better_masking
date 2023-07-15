@@ -1,0 +1,8 @@
+torch==1.10.2
+transformers==4.15.0
+datasets==1.17.0
+spacy==3.3.0
+pytokenizations==0.8.4
+wandb
+scipy==1.8.0
+seqeval
