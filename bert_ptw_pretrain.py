@@ -21,7 +21,6 @@ from transformers.integrations import WandbCallback, rewrite_logs
 from data_utils import MyConfig, BertDataProcessor, BertDataCollator
 
 os.environ['WANDB_PROJECT'] = 'bert_pretrain'
-os.environ['WANDB_API_KEY'] = '5fb826182752249e4b2d5cae0ab77acb5814211e'
 os.environ['WANDB_WATCH'] = 'false'
 
 c = MyConfig({})
