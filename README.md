@@ -23,6 +23,7 @@ Masked Language Modeling (MLM) has been widely used as the denoising objective i
 <p align="center">
 <img width="800px" alt="RefGPT" src="assets/framework_00.png">
 </p>
+
 #### Masking Ratio Decay
 We design an optimized Masking Ratio Decay (MRD) schedule. At the beginning of pre-training, we use a high masking ratio and decay the masking ratio using certain strategies, which is similar to learning rate decay without warmup. Assuming that the model generally adopts a fixed masking ratio p% for training, we use a very high masking ratio (about 2p%) as the starting point and a very low masking ratio (nearly zero) as the ending point in MRD.
 
